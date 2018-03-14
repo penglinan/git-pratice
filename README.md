@@ -1,33 +1,32 @@
-# Git Ñ§Ï°×ÊÁÏÕûÀí±Ê¼Ç
-## 1 ¿Î³Ì½éÉÜ
-## 2 Git»ù´¡ÃüÁî
-- ¡®git init¡¯³õÊ¼»¯Ä¿Â¼
-¹¤×÷Çø-> Ôİ´æÇø
-- git add <ÎÄ¼şÃû»òÄ¿Â¼Ãû> Ìá½»¹¤×÷ÇøÎÄ¼şµ½Ôİ´æÇø
-¹¤×÷Çø->Ôİ´æÇø->±¾µØ°æ±¾¿â
--¡®git commit -m¡¯ "ÎªÊ²Ã´ÒªÌá½»µÄ×¢ÊÍ" Ìá½»µ½±¾µØ°æ±¾¿â
--¡®git status¡¯²é¿´¹¤×÷Çø×´Ì¬
-- 'git diff' <ÎÄ¼şÃû/Ä¿Â¼Ãû³Æ> [--cached] °æ±¾ÄÚÈİ¶Ô±È
+# Git å­¦ä¹ èµ„æ–™æ•´ç†ç¬”è®°
+## 1 è¯¾ç¨‹ä»‹ç»
+## 2 GitåŸºç¡€å‘½ä»¤
+- â€˜git initâ€™åˆå§‹åŒ–ç›®å½•
+å·¥ä½œåŒº-> æš‚å­˜åŒº
+- git add <æ–‡ä»¶åæˆ–ç›®å½•å> æäº¤å·¥ä½œåŒºæ–‡ä»¶åˆ°æš‚å­˜åŒº
+å·¥ä½œåŒº->æš‚å­˜åŒº->æœ¬åœ°ç‰ˆæœ¬åº“
+-â€˜git commit -mâ€™ "ä¸ºä»€ä¹ˆè¦æäº¤çš„æ³¨é‡Š" æäº¤åˆ°æœ¬åœ°ç‰ˆæœ¬åº“
+-â€˜git statusâ€™æŸ¥çœ‹å·¥ä½œåŒºçŠ¶æ€
+- 'git diff' <æ–‡ä»¶å/ç›®å½•åç§°> [--cached] ç‰ˆæœ¬å†…å®¹å¯¹æ¯”
 ## git log
-
 - git log 
 - git log <-number>
-- git log -p <-number> ×î½üÁ½´ÎÖ®¼äµÄ²îÒì
-- git log --stat  ËõÂÔĞĞµÄĞÎÊ½ÏÔÊ¾
-- git log --oneline  ÒÔÒ»ĞĞµÄĞÎÊ½ÏÔÊ¾°æ±¾
---gitk    gui½çÃæµÄĞÎÊ½ÏÔÊ¾
+- git log -p <-number> æœ€è¿‘ä¸¤æ¬¡ä¹‹é—´çš„å·®å¼‚
+- git log --stat  ç¼©ç•¥è¡Œçš„å½¢å¼æ˜¾ç¤º
+- git log --oneline  ä»¥ä¸€è¡Œçš„å½¢å¼æ˜¾ç¤ºç‰ˆæœ¬
+--gitk    guiç•Œé¢çš„å½¢å¼æ˜¾ç¤º
 ## git reset 
-- git reset  --hard <°æ±¾ºÅ>
-- git reset <°æ±¾ºÅ>
-- git reset --soft <°æ±¾ºÅ>
+- git reset  --hard <ç‰ˆæœ¬å·>
+- git reset <ç‰ˆæœ¬å·>
+- git reset --soft <ç‰ˆæœ¬å·>
 - git reset --hard HEAD^
 ## git rm/mv
 - git rm <file/menu>
 - git rm --cached <file/menu>
-- git mv <ÎÄ¼şÔ­À´Î»ÖÃ><ÎÄ¼ş»òÄ¿Â¼µÄĞÂÎ»ÖÃ>
-- git mv <ÎÄ¼şµÄ¾ÉÃû×Ö>
+- git mv <æ–‡ä»¶åŸæ¥ä½ç½®><æ–‡ä»¶æˆ–ç›®å½•çš„æ–°ä½ç½®>
+- git mv <æ–‡ä»¶çš„æ—§åå­—>
 ## git config
 - git config --global user.name "penglinan"
 - git config --global user.email "774032263@qq.com"
-- git remote add Ãû×Ö µØÖ·
-- git push -u Ãû×Ö ·ÖÖ§
+- git remote add åå­— åœ°å€
+- git push -u åå­— åˆ†æ”¯
