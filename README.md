@@ -17,4 +17,17 @@
 - git log --oneline  以一行的形式显示版本
 --gitk    gui界面的形式显示
 ## git reset 
-- git reset  
+- git reset  --hard <版本号>
+- git reset <版本号>
+- git reset --soft <版本号>
+- git reset --hard HEAD^
+## git rm/mv
+- git rm <file/menu>
+- git rm --cached <file/menu>
+- git mv <文件原来位置><文件或目录的新位置>
+- git mv <文件的旧名字>
+## git config
+- git config --global user.name "penglinan"
+- git config --global user.email "774032263@qq.com"
+- git remote add 名字 地址
+- git push -u 名字 分支
