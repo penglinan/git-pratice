@@ -7,3 +7,14 @@
 工作区->暂存区->本地版本库
 -‘git commit -m’ "为什么要提交的注释" 提交到本地版本库
 -‘git status’查看工作区状态
+- 'git diff' <文件名/目录名称> [--cached] 版本内容对比
+## git log
+
+- git log 
+- git log <-number>
+- git log -p <-number> 最近两次之间的差异
+- git log --stat  缩略行的形式显示
+- git log --oneline  以一行的形式显示版本
+--gitk    gui界面的形式显示
+## git reset 
+- git reset  
