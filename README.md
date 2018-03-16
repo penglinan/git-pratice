@@ -67,4 +67,4 @@
 - 文件夹名字/    只忽略根目录
 - *.zip         不提交zip文件
 - xxx.json      不提交某个文件
-- !/node_modules/jquery/ 提交某个不提交文件夹中的文件
+- ‘!/node_modules/jquery/’ 提交某个不提交文件夹中的文件
