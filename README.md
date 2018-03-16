@@ -52,6 +52,7 @@
 - git merge <branch name> 合并分支
 - git rebase <branch name> 合并分支
 - git push origin [name]  创建远程分支(本地分支push到远程)
+- git push origin :heads/[name] 删除远程分支
 - git branch
 - git branch -D <branch name>
 ## git tags
