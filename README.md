@@ -55,6 +55,7 @@
 - git push origin [name]  创建远程分支(本地分支push到远程)
 - git push origin :heads/[name] 删除远程分支
 - git branch
+- git branch -m 原名字 新名字 更改本地分支名字
 - git branch -D <branch name>
 ## git tags
 - git tag
