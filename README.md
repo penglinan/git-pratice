@@ -32,6 +32,7 @@
 ## git config
 - git config --global user.name "penglinan"
 - git config --global user.email "774032263@qq.com"
+- git config core.autocrlf 添加到本地仓库的时候，不使用crlf转码，win系统使用。
 - git remote add 名字 地址
 - git push -u 名字 分支 
 ## git remote 
@@ -61,3 +62,8 @@
 - git show <tag name>
 - git push <remote name> <tag name>
 - git push <tagname> --tages
+## gitignore
+- 文件夹名字/    不提交整个文件夹
+- *.zip         不提交zip文件
+- xxx.json      不提交某个文件
+- !/node_modules/jquery/ 提交某个不提交文件夹中的文件
