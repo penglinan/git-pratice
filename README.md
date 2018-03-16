@@ -51,6 +51,7 @@
 - git checkout -b <branch name> 创建新分支，并切换到新分支
 - git merge <branch name> 合并分支
 - git rebase <branch name> 合并分支
+- git push origin [name]  创建远程分支(本地分支push到远程)
 - git branch
 - git branch -D <branch name>
 ## git tags
