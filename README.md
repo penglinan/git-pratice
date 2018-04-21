@@ -48,8 +48,8 @@
 - git push --force <remote name> 强制上传，不管与其他开发者的冲突
 ## git branch 
 - git branch <new name> 创建新分支
-- git checkout <branch name> 切换到xx分支
-- git checkout -b <branch name> 创建新分支，并切换到新分支
+- git checkout < branch name> 切换到xx分支
+- git checkout -b < branch name> 创建新分支，并切换到新分支
 - git checkout -b <new branch name> origin/远端分支名字   从远端拉去分支到本地
 - git merge <branch name> 合并分支
 - git rebase <branch name> 合并分支
